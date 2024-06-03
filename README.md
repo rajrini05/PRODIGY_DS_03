@@ -12,6 +12,7 @@ bank-full.csv: The full dataset with 45211 examples.
 bank-names.txt: Contains metadata about the dataset and its attributes.
 
 Installation
+
 Clone the repository:
 
 Create a virtual environment and activate it:
@@ -22,20 +23,15 @@ pip install -r requirements.txt
 
 
 Usage
-Place the dataset files (bank.csv, bank-full.csv, bank-names.txt) in the data directory.
 
+Place the dataset files (bank.csv, bank-full.csv, bank-names.txt) in the data directory.
 Run the decision tree classifier script:
 
 Model Training and Evaluation
 
 The script decision_tree_classifier.py performs the following steps:
-
 Loads the dataset.
-
 Preprocesses the data, including converting categorical variables to dummy variables.
-
 Splits the data into training and testing sets.
-
 Trains a decision tree classifier.
-
 Evaluates the model using metrics like accuracy, precision, recall, and F1-score.
